@@ -1,6 +1,6 @@
 package formaion.reponse
 
-public class {
+public class Pythagore {
 
   public static void main(String[] args){
     Scanner input = new Scanner(System.in); 
