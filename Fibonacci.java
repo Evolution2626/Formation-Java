@@ -9,7 +9,7 @@
 
 package formation.reponse
 
-public class {
+public class Fibonacci {
 
   public static void main(String[] args){
     double premier = 0;
