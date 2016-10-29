@@ -1,4 +1,6 @@
-package formaion.reponse
+package formation
+
+import java.util.Scanner;
 
 public class Pythagore {
 
