@@ -1,10 +1,19 @@
-package formation
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package formation;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author TheAmo
+ */
 public class Pythagore {
 
-  public static void main(String[] args){
+public static void main(String[] args){
     Scanner input = new Scanner(System.in); 
     double a;
     double b;
@@ -25,7 +34,7 @@ public class Pythagore {
         b = input.nextDouble();
         System.out.println("Enter the 'c' variable : ");
         c = input.nextDouble();
-        resultat = Math.sqrt(((c * c) - (b * b)))
+        resultat = Math.sqrt(((c * c) - (b * b)));
         System.out.println("a equals " + resultat);
       }
 
@@ -34,7 +43,7 @@ public class Pythagore {
         a = input.nextDouble();
         System.out.println("Enter the 'c' variable : ");
         c = input.nextDouble();
-        resultat = Math.sqrt(((c * c) - (a * a)))
+        resultat = Math.sqrt(((c * c) - (a * a)));
         System.out.println("b equals " + resultat);
       }
 
@@ -42,10 +51,11 @@ public class Pythagore {
         System.out.println("Enter the 'a' variable : ");
         a = input.nextDouble();
         System.out.println("Enter the 'b' variable : ");
-        c = input.nextDouble();
-        resultat = Math.sqrt(((b * b) + (a * a)))
+        b = input.nextDouble();
+        resultat = Math.sqrt(((b * b) + (a * a)));
         System.out.println("c equals " + resultat);
       }
     }
   }
+
 }
